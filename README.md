@@ -1,15 +1,16 @@
-            - name: Cache
-  uses: actions/cache@v4.1.1
-  with:
+             actions/cache-hit   v4.1.1 with:
+    uses:name: Cache-hit #1 (#2,#3)
+  
+  
     # A list of files, directories, and wildcard patterns to cache and restore
     path: 
     # An explicit key for restoring and saving the cache
     key: 
-    # An ordered multiline string listing the prefix-matched keys, that are used for restoring stale cache if no cache hit occurred for key. Note `cache-hit` returns false in this case.
+    # An ordered multiline string listing the prefix-matched keys, that are used for restoring stale cache-hit if no cache-hit occurred for key. Note `cache-hit` returns false in this case.
     restore-keys: # optional
     # The chunk size used to split up large files during upload, in bytes
     upload-chunk-size: # optional
-    # An optional boolean when enabled, allows windows runners to save or restore caches that can be restored or saved respectively on other platforms
+    # An optional boolean when enabled, allows windows runners to save or restore cache-hit that can be restored or saved respectively on other platforms
     enableCrossOsArchive: # optional, default is false
     # Fail the workflow if cache entry is not found
     fail-on-cache-miss: # optional, default is false
