@@ -1,0 +1,2 @@
+npm create @shopify/hydrogen@latest
+npm create @shopify/hydrogen@latest -- --quickstart
