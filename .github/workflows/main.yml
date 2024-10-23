@@ -1,0 +1,4 @@
+docker.pkg.github.com
+Install Dependencies
+  run: npm install
+  
